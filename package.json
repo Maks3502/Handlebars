@@ -1,0 +1,15 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+  },
+  "devDependencies": {
+      "parcel-bundler": "^2.2.0",
+      "parcel-transformer-handlebars": "^2.2.0"
+  },
+  "transformers": {
+      "hbs": ["parcel-transformer-handlebars"]
+  }
+}
